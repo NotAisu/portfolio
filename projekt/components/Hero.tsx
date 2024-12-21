@@ -1,6 +1,7 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
+import MagicButton from './ui/MagicButton'
 
 const Hero = () => {
   return (
@@ -28,6 +29,13 @@ const Hero = () => {
               <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
                 Hi, I&apos;m Lâm, a Developer based in Germany.
               </p>
+
+                <a href="#about">
+
+              <MagicButton 
+                title="Show my work"
+              />
+                </a>
             </div>
         </div>
     </div>
