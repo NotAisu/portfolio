@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { GlobeDemo } from "./GridGlobe";
+import TechStack from "./Technical";
 
 export const BentoGrid = ({
   className,
@@ -91,7 +91,8 @@ export const BentoGridItem = ({
             </div>
             </div>
 
-            {id === 2 && <GlobeDemo />} 
+            {id === 2 && <TechStack />} 
+            
       </div>
     </div>
   );
