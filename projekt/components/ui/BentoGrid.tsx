@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
+import { GlobeDemo } from "./GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -11,7 +12,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid grid-col-1 md:grid-cols-6 lg:gird-cols-5 md:grid-row-7 gap-4 lg:gap-8mx-auto ",
         className
       )}
     >
@@ -87,8 +88,10 @@ export const BentoGridItem = ({
             </div>
             <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
             {title}
-        </div>
-          </div>
+            </div>
+            </div>
+
+            {id === 2 && <GlobeDemo />} 
       </div>
     </div>
   );
