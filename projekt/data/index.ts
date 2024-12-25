@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Ich bin bereit, mich Herausforderungen zu stellen und stetig zu wachsen. ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Ich bin ein angehender Fullstackentwickler.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "w-full h-full object-contain",
@@ -28,8 +28,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "Mein Tech-Stack",
+      description: "Ich versuche mich ständig zu verbessern",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Tech-Enthusiast mit einer Leidenschaft für Entwicklung.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -46,11 +46,10 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
     {
       id: 5,
-      title: "Currently building this Portfolio",
-      description: "The Inside Scoop",
+      title: "Derzeit baue ich dieses Portfolio auf",
+      description: "Ein Schritt, um meine Präsenz zu stärken.",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +58,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Lass uns in Kontakt treten!",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -124,6 +123,7 @@ export const navItems = [
       title: "Freelance App Dev Project",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", 
+      thumbnail: "/exp3.svg",
     },
     {
       id: 4,
@@ -138,7 +138,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      link: ""
+      link: "https://github.com/NotAisu"
     },
     {
       id: 2,
