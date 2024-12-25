@@ -106,31 +106,40 @@ export const BentoGridItem = ({
             </div>
             
 
-            {id === 2 && ( <Technical/>)}
-
+             {id === 2 && ( <Technical/>)}
+            
             {id === 3 && (
-            <div className="flex gap-2 lg:gap-6 w-fit absolute -right-3 lg:-right-2">
-                <div className="flex flex-col gap-3 lg:gap-8"> 
-                  {["React.js", "Next.js", "TypeScript"].map((item) =>(
-                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] ">
-                      {item}
-                    </span>
-                  ))}
-                  <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]"/>
-
-                </div>  
-                <div className="flex flex-col gap-3 lg:gap-8"> 
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]"/>
-
-                  {["Java", "Node.JS", "MySQL"].map((item) =>(
-                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
-                      {item}
-                    </span>
-                  ))}
-                
-                </div>  
-            </div>
-            )}
+                <div className="relative w-full max-w-md mx-auto p-4 sm:max-w-none sm:p-6 bg-gradient-to-r from-[#10132E] to-[#3c4059] rounded-md shadow-lg">
+                  <div className="flex flex-wrap gap-3 sm:gap-6 justify-center">
+                    <div className="flex flex-col gap-3 sm:gap-4">
+                      {["React.js", "Next.js", "TypeScript"].map((item) => (
+                        <span
+                          key={item}
+                          className="py-2 px-4 text-sm sm:text-base font-medium text-white 
+                                    bg-[#2c2f44] rounded-md shadow hover:bg-[#44485c] 
+                                    transition-colors duration-200 whitespace-nowrap"
+                        >
+                          {item}
+                        </span>
+                      ))}
+                      <span className="py-4 px-4 rounded-md bg-[#2c2f44]" />
+                    </div>
+                    <div className="flex flex-col gap-3 sm:gap-4">
+                      <span className="py-4 px-4 rounded-md bg-[#2c2f44]" />
+                      {["Java", "Node.JS", "MySQL"].map((item) => (
+                        <span
+                          key={item}
+                          className="py-2 px-4 text-sm sm:text-base font-medium text-white 
+                                    bg-[#2c2f44] rounded-md shadow hover:bg-[#44485c] 
+                                    transition-colors duration-200 whitespace-nowrap"
+                        >
+                          {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
 
             {id === 6 && (
               <div className="mt-5 relative">
