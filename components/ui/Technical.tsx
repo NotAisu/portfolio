@@ -19,7 +19,7 @@ const Technical = () => {
           className="relative z-10"
         >
           <Image
-            src="/Zusammenarbeit.svg"
+            src="./Zusammenarbeit.svg"
             alt="Tech Stack Illustration"
             width={400}
             height={400}
