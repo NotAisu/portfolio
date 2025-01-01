@@ -4,7 +4,7 @@ Readme
 
 Ein modernes Portfolio, entwickelt mit Next.js und TailwindCSS, das meine Projekte und Fähigkeiten als Medieninformatik-Student präsentiert.
 
-![Portfolio Preview](./projekt/public/portfolio.png)
+![Portfolio Preview](./public/portfolio.png)
 
 ## 🛠 Tech Stack
 
