@@ -9,13 +9,13 @@ const Footer = () => {
 
         <div className='flex flex-col items-center'>
             <h1 className='heading lg:max-w-[45vw]'>
-                Ready to take <span className='text-purple'>your</span> digital presence to the next level?
+            Sind Sie auf der Suche nach <span className='text-purple'>engagierten</span> Praktikanten oder Werkstudenten?
             </h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center '>Reach out to me today let&apos;s discuss how i can help you achieve your goals.
+            <p className='text-white-200 md:mt-10 my-5 text-center '>Ich suche eine Möglichkeit, mein Wissen und meine Fähigkeiten in einem Praktikum oder als Werkstudent einzubringen. Schreiben Sie mir gerne, wenn Sie eine passende Position anbieten!
             </p>
             <a href='mailto:dlam.nguyen03@gmail.com'>
                 <MagicButton 
-                    title="Let's get in touch"
+                    title="Kontatieren Sie mich"
                     icon={<FaLocationArrow/>}
                     position='right'
                 />
