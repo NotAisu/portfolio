@@ -1,3 +1,5 @@
+Readme
+
 # Portfolio - Duc Lam Nguyen 🚀
 
 Ein modernes Portfolio, entwickelt mit Next.js und TailwindCSS, das meine Projekte und Fähigkeiten als Medieninformatik-Student präsentiert.
@@ -85,3 +87,4 @@ portfolio/
 ## 🔗 Kontakt
 - GitHub: @NotAisu 
 - E-Mail: dlam.nguyen03@gmail.com
+
