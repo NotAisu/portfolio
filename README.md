@@ -26,7 +26,7 @@ Ein modernes Portfolio, entwickelt mit Next.js und TailwindCSS, das meine Projek
 
 1. Repository klonen
 ```bash
-git clone https://github.com/yourusername/portfolio.git 
+git clone https://github.com/NotAisu/portfolio.git 
 ```
 
 2. Dependencies installieren
