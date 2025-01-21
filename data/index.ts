@@ -75,7 +75,7 @@ export const navItems = [
       des: "Softwareprojekt an der HTWK Leipzig: eine Jobplattform für wissenschaftliche Einrichtungen. (bald verfügbar)",
       img: "./htwk.png",
       iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./nodejsicon.svg", "./mysqllogo.svg"],
-      link: "https://github.com/NotAisu",
+      link: "https://sp03.imn.htwk-leipzig.de/",
     },
     {
       id: 2,
